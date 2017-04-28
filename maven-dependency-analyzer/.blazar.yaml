@@ -1,0 +1,9 @@
+env:
+  SKIP_VERSION_OVERRIDE: true
+  MAVEN_ARGS: -Drat.skip=true
+
+buildpack:
+  host: git.hubteam.com
+  organization: HubSpot
+  repository: Blazar-Buildpack-Java
+  branch: v2
